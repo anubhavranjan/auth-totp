@@ -1,0 +1,25 @@
+{
+  "name": "auth-totp",
+  "version": "1.0.0",
+  "description": "A simple authenticator package",
+  "main": "dist/authenticator.js",
+  "types": "dist/authenticator.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "totp",
+    "otp"
+  ],
+  "author": "Anubhav Ranjan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.4",
+    "typescript": "^5.4.5"
+  }
+}
