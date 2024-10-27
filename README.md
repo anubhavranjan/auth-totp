@@ -14,7 +14,7 @@ A simple and efficient Time-based One-Time Password (TOTP) authenticator package
 Install the package using npm:
 
 ```bash
-npm install authenticator-package
+npm install auth-totp
 ```
 
 ## Usage 📖
@@ -24,7 +24,7 @@ Here's how you can use the Authenticator package in your project:
 ### Node.js
 
 ```javascript
-const Authenticator = require("authenticator-package");
+const Authenticator = require("auth-totp");
 
 const authenticator = new Authenticator();
 const secret = Authenticator.generateKey();
@@ -39,7 +39,7 @@ console.log(`Is Code Valid: ${isValid}`);
 ### TypeScript / ES6
 
 ```typescript
-import Authenticator from "authenticator-package";
+import Authenticator from "auth-totp";
 
 const authenticator = new Authenticator();
 const secret = Authenticator.generateKey();
